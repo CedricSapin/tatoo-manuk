@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="assets/formulaire.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img id="logo" src="assets/images/logo.png" alt="Logo du site">
+        </a>
+        <div id="liens">
+            <div class="sub_lien">
+                <a href="tatouages.html#TattoosHommes" title="Lien vers les tatouages hommes">Tatouages Hommes</a>
+            </div>
+            <div class="sub_lien">
+                <a href="tatouages.html#TattoosFemmes" title="Lien vers les tatouages femmes">Tatouages Femmes</a>
+            </div>
+            <div class="sub_lien">
+                <a href="tatouages.html#Piercings" title="Lien vers les piercings">Piercings</a>
+            </div>
+            <div class="sub_lien">
+                <a href="prix.html" title="Lien vers les prix">Prix</a>
+            </div>
+            <div class="sub_lien">
+                <a href="soin.html" title="Lien vers les soins">Soins Tattoo</a>
+            </div>
+            <div class="sub_lien">
+                <a href="contact.html" title="Lien vers le contact">Contact</a>
+            </div>
+        </div>
+    </header>
+    <section id="container">
+
+        <form action="" method="get">
+
+            <fieldset id="grp_champs">
+                <legend>Fiche de contact</legend>
+
+                <div class="formCentre">
+                    <label for="Name">Nom</label>
+                    <input type="text" id="name" name="Nom" placeholder="Indiquez votre nom">
+                </div>
+                <div class="formCentre">
+                    <label for="Surname">Prénom</label>
+                    <input type="text" id="surname" name="Prenom" placeholder="Indiquez votre prénom">
+                </div>
+                <div class="formCentre">
+                    <label for="mail">Adresse mail</label>
+                    <input type="text" id="mail" name="mail" placeholder="Indiquez votre adresse mail">
+                </div>
+                <div class="formCentre">
+                    <label for="Message">Message</label>
+                    <input type="text" id="text" name="Message" placeholder="Écrivez votre message">
+                </div>
+                <div class="formCentre">
+                    <label for="date">Choisissez une date</label>
+                    <p id="rdv">qui vous conviendrait pour un rendez-vous</p>
+                    <input id="date" type="date">
+                </div>
+                <div id="bouton">
+                    <button>Envoyer</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <section id="footer">
+
+            <div id="localisation">
+                <!-- Image localisation + adresse + contact-->
+                <div id="image_localisation">
+                    <img src="assets/images/petit_loc.png" alt="image localisation salon">
+                </div>
+                <div class="texte_adresse">
+                    <p>Retrouvez nous au 13 Rue Eugène Floquet, 60200 Compiègne</p>
+                    <p>Par téléphone au : 03 44 44 44 44</p>
+                    <p>Ou par mail : <span><a href="mailto:tattoomanuk@gmail.com" id="email"> tattoomanuk@gmail.com
+                        </span></a></p>
+                </div>
+
+            </div>
+            <div id="container2">
+
+                <p id="titre_reseaux">Retrouvez nous sur nos réseaux</p>
+
+                <div id="ReseauxS">
+                    <!--reseaux-->
+
+                    <div class="icone">
+                        <a href="https://wwww.facebook.com">
+                            <img src="assets/images/facebook.png" alt="icone facebook">
+                        </a>
+
+                    </div>
+                    <div class="icone">
+                        <a href="https://www.instagram.com">
+                            <img src="assets/images/instagram.png" alt="icone instagram"></a>
+                    </div>
+                    <div class="icone">
+                        <a href="https://www.twitter.com">
+                            <img src="assets/images/twitter.png" alt="icone twitter">
+                        </a>
+                    </div>
+                    <div class="icone">
+                        <a href="https://www.snapchat.com">
+                            <img src="assets/images/snapchat.png" alt="icone snapchat">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </footer>
+</body>
+
+</html>
